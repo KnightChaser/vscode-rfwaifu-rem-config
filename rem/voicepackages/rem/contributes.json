@@ -1,0 +1,172 @@
+{
+    "contributes": [
+        {
+            "keywords": ["function", "=>", "def ", "func"],
+            "voices":[
+                "01.wav",
+                "02.wav",
+                "03.wav"
+            ],
+            "texts":[
+                "Looks like you're going to make a new feature.",
+                "Keep in mind that functions should be objective, short and sweet",
+                "Check if your function name is clear enough, don't make it too long or too short."
+            ]
+        },
+        {
+            "keywords": ["return", "yield"],
+            "voices": ["04.wav"],
+            "texts":[
+                "Make sure that the return value is correct, otherwise you'll get a bug.",
+                "Don't forget to return the value, or you gonna hit a compilation error!"
+            ]
+        },
+        {
+            "keywords": ["if", "switch"],
+            "voices": [
+                "05.wav",
+                "06.wav",
+                "07.wav"
+            ],
+            "texts":[
+                "keep in mind that the condition should be clear and easy to understand.",
+                "Don't forget to add the default case, otherwise you'll get a bug.",
+                "I hope you're not writing an excessive nested if statement. That's a bad practice."
+            ]
+        },
+        {
+            "keywords": ["for", "while"],
+            "voices": [
+                "08.wav",
+                "09.wav",
+                "10.wav"
+            ],
+            "texts":[
+                "Don't forget to add the exit condition, otherwise you'll get a scary infinite loop!",
+                "Loop? What are you looping for?",
+                "Hmm, what are you looping for? I hope you're not writing an infinite loop."
+            ]
+        },
+        {
+            "keywords": ["typedef", "struct", "define"],
+            "voices": [
+                "11.wav"
+            ],
+            "texts":[
+                "You're creating a new data structure, right?",
+                "It seems that the languge you're using is not contentable enough.",
+                "What are you newly defining? A cake for me?"
+            ]
+        },
+        {
+            "keywords": ["catch", "except", "try", "throw", "raise"],
+            "voices": [
+                "12.wav",
+                "13.wav"
+            ],
+            "texts":[
+                "Hehe, you've caught so many exceptions but still can't catch a girlfriend.",
+                "Don't focus too much on program exceptions, pay more attention to your own exceptions.",
+                "Don't ignore the exception! You really want to see the program crash?"
+            ]
+        },
+        {
+            "keywords": ["import", "#include", "from", "import("],
+            "voices": [
+                "14.wav",
+                "15.wav"
+            ],
+            "texts":[
+                "I hope you aren't importing too much unnecessary libraries.",
+                "You also imported my cuteness, right?"
+            ]
+        },
+        {
+            "keywords": ["class"],
+            "voices": [
+                "16.wav"
+            ],
+            "texts":[
+                "Let's make some objective things!"
+            ]
+        },
+        {
+            "keywords": ["fuck", "shit"],
+            "voices": [
+                "17.wav"
+            ],
+            "texts":[
+                "What's wrong again? You should made some ridiculous mistakes again"
+            ]
+        },
+        {
+            "keywords": ["//", "/**",  "/*", "#", "--"],
+            "voices": [
+                "18.wav",
+                "19.wav",
+                "20.wav"
+            ],
+            "text": [
+                "Yes, keep documenting what you did. You'll forget what you wrote 3 days after.",
+                "You aren't going to write gibberish, right?",
+                "Describe what is this, rather than how cute I am!"
+            ]
+        },
+        {
+            "keywords": ["$time_morning"],
+            "voices": ["21.wav"],
+            "texts":[
+                "Good morning!"
+            ]
+        },
+        {
+            "keywords": ["$time_before_noon"],
+            "voices": [
+                "22.wav",
+                "23.wav"
+            ],
+            "texts":[
+                "It's noon, have you had lunch, right?",
+                "Don't dare to skip your meal, that's important!"
+            ]
+        },
+        {
+            "keywords": ["$time_noon"],
+            "voices": ["24.wav"],
+            "texts":[
+                "You might need a nap in the afternoon to be energetic."
+            ]
+        },
+        {
+            "keywords": ["$time_evening"],
+            "voices": ["25.wav"],
+            "texts":[
+                "Why haven't you left work yet?"
+            ]
+        },
+        {
+            "keywords": ["$time_midnight"],
+            "voices": ["26.wav"],
+            "texts":[
+                "It's very late, you should rest early!"
+            ]
+        },
+        {
+            "keywords": ["$time_each_hour"],
+            "voices": [
+                "5.wav",
+                "10.wav",
+                "15.wav",
+                "20.wav",
+                "25.wav"
+            ],
+            "texts":[
+                "Hey, aren't you tired?",
+                "You've been writing for a long time, get up and take a break.",
+                "Writing so much code, you might as well write love letters to girls! Fufu.",
+                "You love coding so much, don't you? But don't forget to take care of yourself.",
+                "If you use another girl's voice pack, I will strangle you!"
+            ]
+        }
+    ]
+}
